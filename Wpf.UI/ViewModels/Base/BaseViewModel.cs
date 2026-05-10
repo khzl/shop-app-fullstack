@@ -25,4 +25,5 @@ namespace Wpf.UI.ViewModels.Base
             return true;
         }
     }
+
 }

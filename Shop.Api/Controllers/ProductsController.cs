@@ -33,7 +33,8 @@ namespace Shop.Api.Controllers
             int pageNumber = 1,
             int pageSize = 10)
         {
-            var result = await _productService.SearchProductsAsync(searchTerm, pageNumber, pageSize);
+            var result = await _productService.SearchProductsAsync(
+                searchTerm, pageNumber, pageSize);
             return Ok(result);
         }
 

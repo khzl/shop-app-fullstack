@@ -54,4 +54,7 @@ namespace Wpf.UI.ViewModels.ViewModel
             // Navigate to Login View 
         }
     }
+
+
+
 }
